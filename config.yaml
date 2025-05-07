@@ -3,6 +3,9 @@ languageCode: "en-us"
 title: "till-leissner.de"
 theme: "PaperMod"
 enableRobotsTXT: true
+caches:
+  images:
+    dir: :cacheDir/images
 
 params:
   assets:
