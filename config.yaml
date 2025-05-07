@@ -1,0 +1,40 @@
+baseURL: "https://www.till-leissner.de/"
+languageCode: "en-us"
+title: "till-leissner.de"
+theme: "PaperMod"
+enableRobotsTXT: true
+
+params:
+  assets:
+    customCSS:
+      - css/custom.css
+  profileMode:
+    enabled: true
+    title: "Moin" # optional default will be site title
+    #subtitle: "Test"
+    imageUrl: "author-square.png" # optional
+    imageTitle: "Portrait of author" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    #buttons:
+    #  - name: Archive
+    #    url: "/archive"
+    #  - name: Github
+    #    url: "https://github.com/"
+
+  socialIcons:
+      - name: mastodon
+        url: "https://norden.social/@tillleissner"
+      - name: pixelfed
+        url: "https://pixelfed.social/tillleissner"
+      - name: github
+        url: "https://github.com/tleissner/"
+      - name: linkedin
+        url: "https://www.linkedin.com/till.leissner"
+      - name: researchgate
+        url: "https://www.researchgate.net/profile/Till-Leissner"
+      - name: orcid
+        url: "https://orcid.org/0000-0003-3737-0390"
+      - name: googlescholar
+        url: "https://scholar.google.com/citations?user=tleissner"
+
