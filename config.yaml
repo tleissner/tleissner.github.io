@@ -43,3 +43,6 @@ params:
       - name: googlescholar
         url: "https://scholar.google.com/citations?user=tleissner"
 
+caches:
+  images:
+    dir: :cacheDir/images
