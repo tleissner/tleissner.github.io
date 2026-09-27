@@ -1,6 +1,9 @@
 baseURL: "https://www.till-leissner.de/"
 locale: "en-us"
 title: "till-leissner.de"
+module:
+  imports:
+  - path: github.com/adityatelange/hugo-PaperMod
 theme: "PaperMod"
 enableRobotsTXT: true
 
